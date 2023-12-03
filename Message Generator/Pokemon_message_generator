@@ -1,0 +1,4 @@
+let messPartOne= ["Charmander","Squirtle","Bulbasaur","Pikachu","Froakie","Sylveon","Snivy"];
+let messPartTwo=["Go!","I Choose You!","Stand by!","Stand by for battle!","I'm counting on you"];
+let messPartThree=["Use Tackle!","Use Growl!","Use Scratch!","Use Thunderbolt!","Attack the moon!"];
+
