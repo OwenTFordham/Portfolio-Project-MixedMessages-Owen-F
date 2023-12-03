@@ -1,0 +1,19 @@
+let messPartOne= ["Charmander","Squirtle","Bulbasaur","Pikachu","Froakie","Sylveon","Snivy"];
+let messPartTwo=["Go!","I Choose You!","Stand by!","Stand by for battle!","I'm counting on you"];
+let messPartThree=["Use Tackle!","Use Growl!","Use Scratch!","Use Thunderbolt!","Attack the moon!"];
+let theMessages=[messPartOne,messPartTwo,messPartThree]
+
+let makeMessage=()=>{
+    let finalMessage=[]
+    for (let i in theMessages){
+    let ranNum=Math.floor(Math.random()*(theMessages[i].length-1))
+    finalMessage.push(theMessages[i][ranNum])
+
+    }
+    let end=finalMessage.join(' ')
+    return end
+}
+
+console.log(makeMessage())
+
+
