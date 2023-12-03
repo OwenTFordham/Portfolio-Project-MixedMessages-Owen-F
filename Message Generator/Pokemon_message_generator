@@ -10,7 +10,8 @@ let makeMessage=()=>{
     finalMessage.push(theMessages[i][ranNum])
 
     }
-    return finalMessage
+    let end=finalMessage.join(' ')
+    return end
 }
 
 console.log(makeMessage())
